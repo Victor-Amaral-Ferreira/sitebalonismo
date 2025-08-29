@@ -1,0 +1,81 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 
+*** Cabeçalho ***
+*/
+
+
+.header{
+   /* background-color: darkgreen; */
+    margin: 0;
+    background-color: royalblue;
+}
+
+.header a:link, .header a:visited{
+    color: aliceblue;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+.header a:hover{
+    color: royalblue;
+    background-color: aliceblue;
+    text-decoration: none;
+}
+
+.nome{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.menu{
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 2%;
+}
+
+
+/* 
+*** Corpo da página ***
+*/
+
+
+.paginainicial{
+    width: 100%;
+}
+
+.conteudo{
+    width: 1000px;
+    float: center;
+    background-color: royalblue;
+    margin: 30px auto;
+    height: 700px;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.texto{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+.textoform{
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    color: black;
+    margin-left: 50px;
+}
